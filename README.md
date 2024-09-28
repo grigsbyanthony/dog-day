@@ -5,7 +5,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-My partner needed a simple way to track how long their day-to-day tasks took, so I made this terrible little Chrome extension to give them a way to do it. It probably won't be maintained unless they ask for new features!
+My partner needed a simple way to track how long their day-to-day tasks took, so I made this terrible little Chrome extension to give them a way to do it. This is the product of an impromtu 3-hour code jam. It probably won't be maintained unless they ask for new features!
 
 ## ✨ Features
 ### 🎨 Themes
