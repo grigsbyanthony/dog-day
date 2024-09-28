@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dog Day</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="timer-section">
+      <input type="text" id="session-name" placeholder="Name of session">
+      <input type="text" id="session-tags" placeholder="Enter tags (comma separated)">
+      <div class="tag-container"></div>
+
+      <div id="timer-container">
+        <div id="timer">
+          <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <button id="popout-icon" class="popout-icon">⧉</button>
+      </div>
+
+      <div class="buttons">
+        <button id="clock-in">
+          <span class="icon">𓃡</span>
+          Clock-in
+        </button>
+        <button id="pause">
+          <span class="icon">𓃩</span>
+          Pawse
+        </button>
+        <button id="clock-out">
+          <span class="icon">𓃫</span>
+          Clock-out
+        </button>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <span class="search-icon">🔍</span> 
+      <input type="text" id="search-tags" placeholder="Search by tags">
+    </div>
+
+    <div id="sessions-tab" class="tab-content active">
+      <table id="sessions-log" class="data-table">
+        <thead>
+          <tr>
+            <th id="session-name-header">Session<span class="sort-indicator" id="name-sort-icon"></span></th>
+            <th id="tags-header">Tags<span class="sort-indicator" id="tags-sort-icon"></span></th>
+            <th id="duration-header">Duration<span class="sort-indicator" id="time-sort-icon"></span></th>
+            <th id="date-header">Date<span class="sort-indicator" id="startTime-sort-icon"></span></th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+      <div class="theme-selector-container">
+        <label for="theme-select">Choose a theme:</label>
+        <select id="theme-select">
+          <option value="default">Default</option>
+          <option value="dark-theme">Dark</option>
+          <option value="red-theme">Red</option> 
+          <option value="black-white-theme">B&W</option>
+        </select>
+      </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
